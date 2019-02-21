@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\KPD-Thomas\\Desktop\\VCA app android\\19-02-2019\\VCAapp-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pa-rIN\\values-pa-rIN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\KPD-Thomas\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-8.4.0.aar\\a48a67109352fbf2ba6305c8d62cf03f\\res\\values-pa-rIN\\common_strings.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "170",
+                        "endColumns": "258",
+                        "endOffsets": "424"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2022",
+                        "endColumns": "254",
+                        "endOffsets": "2272"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\KPD-Thomas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\1886b3e6c223cf26d0622434a57daea5\\res\\values-pa-rIN\\values-pa-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,161,269,392,497,602,688,788,901,978,1054,1133,1234,1335,1432,1541,1640,1750,1872,1972",
+                        "endColumns": "105,107,122,104,104,85,99,112,76,75,78,100,100,96,108,98,109,121,99,100",
+                        "endOffsets": "156,264,387,492,597,683,783,896,973,1049,1128,1229,1330,1427,1536,1635,1745,1867,1967,2068"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,211,319,442,547,652,738,838,951,1028,1104,1183,1284,1385,1482,1591,1690,1800,1922,2277",
+                        "endColumns": "105,107,122,104,104,85,99,112,76,75,78,100,100,96,108,98,109,121,99,100",
+                        "endOffsets": "206,314,437,542,647,733,833,946,1023,1099,1178,1279,1380,1477,1586,1685,1795,1917,2017,2373"
+                    }
+                }
+            ]
+        }
+    ]
+}

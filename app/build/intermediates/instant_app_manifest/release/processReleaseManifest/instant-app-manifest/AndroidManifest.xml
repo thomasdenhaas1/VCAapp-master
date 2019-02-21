@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nl.kimplusdelta.vca"
+    android:targetSandboxVersion="2"
+    android:versionCode="26"
+    android:versionName="1.0.3" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="nl.kimplusdelta.vca.MyApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/back4app_server_url" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/back4app_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/back4app_client_key" />
+
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.vca-examen-app.nl"
+                    android:scheme="http" />
+                <data
+                    android:host="vca-examen-app.nl"
+                    android:scheme="http" />
+                <data
+                    android:host="vca-examen-app.nl"
+                    android:pathPrefix="/"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.ExamActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_exam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.ResultsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_exam_results"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.HistoryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_history"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.QuestionListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_question_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.ExamReviewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_question_review"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.LaunchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_overview"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.FAQActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_FAQ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.SplashActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nl.kimplusdelta.vca.activities.LoginActivity"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <!-- Facebook -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- Used for Notifications -->
+        <receiver android:name="nl.kimplusdelta.vca.receivers.NotificationPublisher" />
+
+        <!-- Used for Conversion tracking -->
+        <receiver
+            android:name="com.google.ads.conversiontracking.InstallReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Used for Google Play Store Campaign Measurement -->
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+         Register AnalyticsReceiver and AnalyticsService to support background
+         dispatching on non-Google Play devices.
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="nl.kimplusdelta.vca.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.parse.PushServiceApi26"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

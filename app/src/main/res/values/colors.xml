@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="correct_answer">#66B91F</color>
+    <color name="wrong_answer">#E14747</color>
+
+    <color name="kim_color">#0f5fa7</color>
+
+    <color name="actionbar_background">@color/kim_color</color>
+
+    <color name="kim_btn_background">@color/kim_color</color>
+    <color name="kim_btn_background_selected">#ff00b2ff</color>
+    <color name="kim_btn_background_disabled">@android:color/darker_gray</color>
+
+    <color name="text_white">#ffffffff</color>
+    <color name="text_white_alpha">#80ffffff</color>
+
+    <color name="text_black">#ff000000</color>
+    <color name="text_black_alpha">#80000000</color>
+
+    <color name="color_gratis">#40C2D0</color>
+    <color name="color_gratis_dark">#10909E</color>
+    <color name="color_basic">#9B5CE8</color>
+    <color name="color_basic_dark">#6727B6</color>
+    <color name="color_vil">#42D199</color>
+    <color name="color_vil_dark">#009359</color>
+    <color name="color_vol">#E1B84E</color>
+    <color name="color_vol_dark">#A87D0E</color>
+    <color name="color_app_bg">#F4F4F4</color>
+    <color name="color_light_gray">#F2F6F9</color>
+    <color name="color_dark_gray">#8E9AA6</color>
+    <color name="color_blue_1">#1570C1</color>
+    <color name="color_blue_2">#1978CC</color>
+    <color name="color_blue_3">#1E80D9</color>
+    <color name="color_blue_4">#004787</color>
+
+
+</resources>

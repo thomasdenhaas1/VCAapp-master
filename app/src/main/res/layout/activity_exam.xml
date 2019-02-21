@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:id="@+id/headerContainer"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/topContainer"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/indicatorContainer"
+                android:gravity="center_vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exam_score"
+                    android:id="@+id/textView"
+                    android:textSize="@dimen/font_size_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="50"
+                    android:id="@+id/correctScoreLabel"
+                    android:textColor="@color/correct_answer"
+                    android:textSize="@dimen/font_size_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/score_divider"
+                    android:id="@+id/scoreDivider"
+                    android:textSize="@dimen/font_size_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="50"
+                    android:id="@+id/incorrectScoreLabel"
+                    android:textColor="@color/wrong_answer"
+                    android:textSize="@dimen/font_size_normal" />
+            </LinearLayout>
+
+            <Chronometer
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/examTimer"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/text_black_alpha"
+                android:textSize="@dimen/font_size_normal" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:text="Q.no: 3/40"
+                android:id="@+id/progressLabel"
+                android:gravity="center_vertical|end"
+                android:layout_weight="1"
+                android:textSize="@dimen/font_size_normal" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Wetgeving"
+            android:id="@+id/categoryLabel"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/kim_color"
+            android:textSize="@dimen/font_size_large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Welke factor is bepalend voor de risico&apos;s van het werk?"
+            android:id="@+id/questionLabel"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:textSize="@dimen/font_size_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/contentContainer"
+        android:layout_below="@+id/headerContainer"
+        android:orientation="vertical"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_above="@+id/continueHolder"
+        android:layout_alignParentBottom="false">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/imageHolder"
+            android:visibility="visible"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/questionImageView"
+                android:src="@mipmap/ic_launcher"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:minHeight="400dp"
+                android:minWidth="400dp"
+                android:contentDescription="@string/desc_question_image" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:id="@+id/answerContainer"
+            android:orientation="vertical"
+            android:minHeight="150dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:paddingBottom="1dp">
+
+                <include android:id="@+id/answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/exam_answer"
+                    android:layout_marginBottom="8dp" />
+
+                <include android:id="@+id/answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/exam_answer"
+                    android:layout_marginBottom="8dp" />
+
+                <include android:id="@+id/answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/exam_answer" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/continueHolder"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/continue_button"
+            android:id="@+id/submitButton"
+            android:visibility="visible"
+            android:background="@drawable/kim_floating_box_btn"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\KPD-Thomas\\Desktop\\VCA app android\\19-02-2019\\VCAapp-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-gu\\values-gu.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\KPD-Thomas\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-android-sdk-4.10.0.aar\\a72bfc6fc6083db0203193ba6b51dd60\\res\\values-gu\\values-gu.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,23",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "170,308,419,540,633,704,776,846,918,994,1087,1165,1243,1333,1441,1505,1572,1851",
+                        "endColumns": "137,110,120,92,70,71,69,71,75,92,77,77,89,107,63,66,146,60",
+                        "endOffsets": "303,414,535,628,699,771,841,913,989,1082,1160,1238,1328,1436,1500,1567,1714,1907"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,193,304,425,518,589,661,731,803,879,972,1050,1128,1218,1326,1390,1457,1604",
+                        "endColumns": "137,110,120,92,70,71,69,71,75,92,77,77,89,107,63,66,146,60",
+                        "endOffsets": "188,299,420,513,584,656,726,798,874,967,1045,1123,1213,1321,1385,1452,1599,1660"
+                    }
+                }
+            ]
+        }
+    ]
+}

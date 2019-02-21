@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/text_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageview_icon"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:background="@drawable/circle_gratis"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/_4sdp"
+            android:src="@drawable/icon_white_greats" />
+
+        <TextView
+            android:id="@+id/typeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/kim_color"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:typeface="serif"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            tools:text="Demo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/bg_gray_round"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/bg_gray_round"
+                android:gravity="center_vertical"
+                android:minWidth="@dimen/_60sdp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/score_top_round"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/_2sdp"
+                    android:text="@string/score"
+                    android:typeface="serif"
+                    android:textColor="@color/text_white"
+                    android:textSize="@dimen/font_size_normal" />
+
+                <TextView
+                    android:id="@+id/scoreLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/score_bottom_round"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/_2sdp"
+                    android:typeface="serif"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/font_size_normal"
+                    tools:text="15/40" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/bg_gray_round"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/infoLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_horizontal"
+                    android:textSize="@dimen/font_size_normal"
+                    android:typeface="serif"
+                    tools:text="Sep 1, 2015 8:53P PM" />
+
+                <TextView
+                    android:id="@+id/successLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/correct_answer"
+                    android:textSize="@dimen/font_size_normal"
+                    android:typeface="serif"
+                    android:textStyle="bold"
+                    tools:text="SUCCES!" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@drawable/bg_gray_round"
+                android:gravity="center_vertical"
+                android:minWidth="@dimen/_60sdp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/score_top_round"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/_2sdp"
+                    android:text="@string/time"
+                    android:typeface="serif"
+                    android:textColor="@color/text_white"
+                    android:textSize="@dimen/font_size_normal" />
+
+                <TextView
+                    android:id="@+id/timeLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/score_bottom_round"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/_2sdp"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/font_size_normal"
+                    android:typeface="serif"
+                    tools:text="20:05" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:maxHeight="@dimen/_5sdp"
+            android:minHeight="@dimen/_5sdp"
+            android:progress="50"
+            android:progressDrawable="@drawable/history_progress_bar" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

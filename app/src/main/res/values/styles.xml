@@ -1,0 +1,30 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/AppTheme.MyActionBar</item>
+        <item name="actionBarStyle">@style/AppTheme.MyActionBar</item>
+        <item name="colorPrimaryDark">@color/color_blue_4</item>
+
+        <item name="android:buttonStyle">@style/AppTheme.MyButton</item>
+        <item name="buttonStyle">@style/AppTheme.MyButton</item>
+    </style>
+
+    <style name="AppTheme.MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_background</item>
+        <item name="background">@color/actionbar_background</item>
+    </style>
+
+    <style name="AppTheme.MyButton" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/kim_floating_box_btn</item>
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <style name="FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/text_white</item>
+    </style>
+</resources>

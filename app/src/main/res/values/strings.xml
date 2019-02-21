@@ -1,0 +1,113 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="facebook_app_id">153791318334843</string>
+
+    <string name="version_vca_lite">VCA Check</string>
+    <string name="version_vca_b">Basis-VCA</string>
+    <string name="version_vca_vol">VOL-VCA</string>
+    <string name="version_vcu_vil">VIL-VCU</string>
+
+    <string name="action_settings">Instellingen</string>
+    <string name="action_stop">Stop</string>
+
+    <string name="app_name">VCA</string>
+
+    <string name="title_activity_exam">Examen</string>
+    <string name="title_activity_exam_results">Resultaten</string>
+    <string name="title_activity_settings">@string/action_settings</string>
+    <string name="title_activity_history">Bekijk je resultaten</string>
+    <string name="title_activity_question_list">Categorie</string>
+    <string name="title_activity_question_review">Examen vraag</string>
+
+    <string name="main_menu_exam_normal">Start %1$s examen</string>
+    <string name="main_menu_buy_exam">Koop %1$s examens</string>
+    <string name="main_menu_exam">Start examen</string>
+
+    <string name="action_about_send_email">apps@kimplusdelta.nl</string>
+    <string name="action_about_send_subject">VCA examen app contact</string>
+    <string name="action_about_send_chooser_title">Verstuur email…</string>
+
+    <string name="tutorial_text_lite" tools:ignore="PluralsCandidate">Er volgen nu %1$s. \n\nKies het juiste antwoord en druk vervolgens op \'volgende\' onderaan om naar de volgende vraag te gaan. \n\nVeel succes!</string>
+    <string name="tutorial_text_pro" tools:ignore="PluralsCandidate">Er volgen nu %1$s. \n\nKies het juiste antwoord en druk vervolgens op \'volgende\' onderaan om naar de volgende vraag te gaan. \n\nOm te slagen voor het %2$s examen moeten minimaal %3$d van %4$d vragen goed beantwoord worden. \n\nVeel succes!</string>
+    <string name="correct">correct</string>
+    <string name="total">totaal</string>
+    <string name="required_score_result">%1$s te kort</string>
+    <string name="exam_successful">Geslaagd!</string>
+    <string name="exam_failed">Helaas, niet geslaagd</string>
+    <string name="exam_history_successful">Geslaagd</string>
+    <string name="exam_history_failed">Niet geslaagd</string>
+    <string name="exam_score">Score:&#160;</string>
+    <string name="question_number">Vraag: %1$d/%2$d</string>
+    <string name="continue_button">Volgende</string>
+    <string name="prevent_sleep">Zet slaapstand uit </string>
+    <string name="disable_notifications">Zet notificaties uit </string>
+    <string name="rate_app">Beoordeel app</string>
+    <string name="delete_history">Data wissen</string>
+    <string name="contact">Contact</string>
+    <string name="login1">Log in</string>
+    <string name="logout1">Log uit</string>
+    <string name="score">score</string>
+    <string name="time">tijd</string>
+    <string name="exit_dialog_confirmation">Wil je het oefenexamen stoppen? Alle antwoorden gaan verloren.</string>
+    <string name="delete_data_dialog_confirmation">Weet u zeker dat u uw opgeslagen data wilt wissen?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="desc_question_image">questionImage</string>
+    <string name="desc_kim_logo">kim logo</string>
+    <string name="tutorial_header">Handleiding</string>
+    <string name="score_divider">/</string>
+    <string name="exam_result_date">%1$s %2$s</string>
+    <string name="exam_score_format">%1$s/%2$s</string>
+    <string name="history_no_records_found">Geen examens gevonden</string>
+    <string name="main_menu_buy_description_exam" tools:ignore="PluralsCandidate">Meer dan %1$d oefenvragen</string>
+    <string name="arrow_desc">category_arrow</string>
+    <string name="title_activity_overview">Koop meer examens</string>
+    <string name="title_activity_FAQ">Veelgestelde vragen</string>
+    <string name="img_desc_info_block">Info block</string>
+    <string name="img_desc_launch_logo">launch logo</string>
+    <string name="img_desc_share_me">share me icon</string>
+    <string name="img_desc_buy_me">buy me icon</string>
+    <string name="info_box_unlimited_testing">Onbeperkt oefenen met feedback</string>
+    <string name="check_your_knowledge">Gratis VCA Check</string>
+    <string name="check_your_knowledge_description">Hoe is jouw VCA kennis?</string>
+    <string name="splash_title">VCA Examen App</string>
+    <string name="splash_tagLine">De nummer één om mee te slagen!</string>
+    <string name="info_block_increase_success">Onbeperkt oefenen? Koop dan één van de modules met oefenexamens.</string>
+    <string name="share_me">Share deze app</string>
+    <string name="more_exams">Koop meer examens</string>
+    <string name="FAQ">Veelgestelde vragen</string>
+    <string name="FAQ_description">Alle antwoorden op een rij</string>
+    <string name="more_exams_description">Onbeperkt oefenen</string>
+    <string name="show_history">Bekijk je resultaten</string>
+    <string name="show_history_description">Zie je score per onderwerp</string>
+    <string name="info_block_history_go_to_exams">Koop meer examens</string>
+    <string name="main_title">VCA Examen App</string>
+    <string name="view_results">Bekijk je resultaten</string>
+    <string name="results_popup_title">Onbeperkt oefenen?</string>
+    <string name="FAQ_Q_1">Hoe lang is de app geldig?</string>
+    <string name="FAQ_A_1">Onbeperkt, jouw aangekochte module met oefenexamens blijft beschikbaar.</string>
+    <string name="FAQ_Q_2">Wat kost de app?</string>
+    <string name="FAQ_A_2">De prijzen staan vermeld onder de koopknoppen, klik erop en zie de prijs.</string>
+    <string name="FAQ_Q_3">Bereid de app goed voor op het examen?</string>
+    <string name="FAQ_A_3">Jazeker, de vragen sluiten aan op de officiële VCA eind- en toetstermen.</string>
+    <string name="FAQ_Q_4">Komen er nog kosten bij?</string>
+    <string name="FAQ_A_4">Nee, na aankoop kun je onbeperkt oefenen.</string>
+    <string name="FAQ_Q_5">Hebben jullie een website?</string>
+    <string name="FAQ_A_5">Jazeker: www.vca-examen-app.nl</string>
+    <string name="FAQ_more_faqs">Meer vragen? Ga naar de FAQ met antwoorden op veelgestelde vragen</string>
+    <string name="FAQ_to_faqs">Naar FAQ</string>
+    <string name="rate_desc">Zou jij de VCA Examen App aanbevelen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="later">Later</string>
+    <string name="action_history">gemaakte examens</string>
+    <string name="action_faq">FAQ</string>
+    <string name="iap_thanks_title">Bedankt!</string>
+    <string name="iap_thanks_message">Je kunt nu onbeperkt oefenen. Veel succes!</string>
+
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">8lOYs6hTj92Ie3FJXPQsFgeyWKYs04iNt1JT5B9k</string>
+    <string name="back4app_client_key">aHGReYiMD6bdXQyVRBPCUW75eGqoSvLVFEFDjJgh</string>
+    <color name="Black">#000000</color>
+</resources>

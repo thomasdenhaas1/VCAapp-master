@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_history" android:title="@string/action_history"
+        android:icon="@drawable/ic_history" android:orderInCategory="70" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_faq" android:title="@string/action_faq"
+        android:icon="@drawable/ic_question_answer" android:orderInCategory="80" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:icon="@drawable/ic_settings" android:orderInCategory="100" app:showAsAction="ifRoom" />
+</menu>

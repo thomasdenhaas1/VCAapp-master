@@ -1,0 +1,113 @@
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:120
+-keep class com.facebook.FacebookActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:130
+-keep class com.google.ads.conversiontracking.InstallReceiver { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:154
+-keep class com.google.android.gms.analytics.AnalyticsReceiver { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:162
+-keep class com.google.android.gms.analytics.AnalyticsService { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:141
+-keep class com.google.android.gms.analytics.CampaignTrackingReceiver { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:139
+-keep class com.google.android.gms.analytics.CampaignTrackingService { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:167
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:172
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:180
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:184
+-keep class com.parse.PushServiceApi26 { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:17
+-keep class nl.kimplusdelta.vca.MyApplication { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:61
+-keep class nl.kimplusdelta.vca.activities.ExamActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:86
+-keep class nl.kimplusdelta.vca.activities.ExamReviewActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:97
+-keep class nl.kimplusdelta.vca.activities.FAQActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:76
+-keep class nl.kimplusdelta.vca.activities.HistoryActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:91
+-keep class nl.kimplusdelta.vca.activities.LaunchActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:114
+-keep class nl.kimplusdelta.vca.activities.LoginActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:38
+-keep class nl.kimplusdelta.vca.activities.MainActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:81
+-keep class nl.kimplusdelta.vca.activities.QuestionListActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:66
+-keep class nl.kimplusdelta.vca.activities.ResultsActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:71
+-keep class nl.kimplusdelta.vca.activities.SettingsActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:102
+-keep class nl.kimplusdelta.vca.activities.SplashActivity { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:127
+-keep class nl.kimplusdelta.vca.receivers.NotificationPublisher { <init>(); }
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_alert_dialog_material.xml:75
+-keep class android.support.v4.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_alert_dialog_button_bar_material.xml:40
+-keep class android.support.v4.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_list_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_alert_dialog_button_bar_material.xml:18
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.10.0.aar\a72bfc6fc6083db0203193ba6b51dd60\res\layout\com_facebook_device_auth_dialog_fragment.xml:22
+-keep class android.support.v7.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_alert_dialog_material.xml:48
+-keep class android.support.v7.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_search_view.xml:78
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\KPD-Thomas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\1886b3e6c223cf26d0622434a57daea5\res\layout\abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\src\main\res\layout\activity_settings.xml:98
+-keepclassmembers class * { *** LogInFunction(android.view.View); }
+
+# Referenced at C:\Users\KPD-Thomas\Desktop\VCA app android\19-02-2019\VCAapp-master\app\src\main\res\layout\activity_settings.xml:112
+-keepclassmembers class * { *** LogOutFunction(android.view.View); }
+

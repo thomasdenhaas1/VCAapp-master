@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/answerHolder"
+    android:background="@drawable/floating_box"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:minHeight="36dp">
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/indicator"
+        android:layout_alignBottom="@+id/answerFrame"
+        android:layout_alignParentTop="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/indicatorColor"
+            android:layout_gravity="center"
+            android:background="@drawable/answer_indicator">
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="B"
+            android:id="@+id/indicatorLabel"
+            android:layout_gravity="end|bottom"
+            android:gravity="center"
+            android:textSize="@dimen/font_size_normal" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/indicator"
+        android:id="@+id/answerFrame"
+        android:minHeight="36dp"
+        android:layout_toRightOf="@+id/indicator">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:text="Het toezicht door de opdrachtgever Het toezicht door de opdrachtgever"
+            android:id="@+id/answerLabel"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:minHeight="48dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:textSize="@dimen/font_size_normal" />
+    </FrameLayout>
+</RelativeLayout>

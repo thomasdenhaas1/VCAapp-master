@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "nl.kimplusdelta.vca"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 26
+        versionName "1.0.3"
+
+        resConfigs "en", "nl"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+
+    sourceSets {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    annotationProcessor 'com.jakewharton:butterknife:7.0.1'
+    implementation 'com.jakewharton:butterknife:7.0.1'
+    implementation 'com.google.android.gms:play-services-analytics:8.4.0'
+    implementation 'com.facebook.android:facebook-android-sdk:4.10.0'
+    implementation files('libs/GoogleConversionTrackingSdk-2.2.4.jar')
+
+    annotationProcessor 'com.parse:parse-android:1.16.3'
+    implementation 'com.parse:parse-android:1.16.3'
+    implementation 'com.intuit.sdp:sdp-android:1.0.5'
+    implementation 'com.intuit.ssp:ssp-android:1.0.5'
+}
+
+apply plugin: 'com.google.gms.google-services'
